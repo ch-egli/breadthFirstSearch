@@ -24,4 +24,8 @@ if __name__ == '__main__':
         'D': ['B', 'C', 'E'],
         'E': ['B', 'D']
     }
-    [print(x) for x in bfs(graph, 'A')]
+    result = bfs(graph, 'A')
+
+    for x in result:
+        print(x)
+
